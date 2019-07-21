@@ -14,7 +14,7 @@
 		return $info;
 	}
 
-	$site = 'https://codigital.oi.net.br';
+	$site = 'https://google.com';
 	$info = curl_info( $site );
 	if( $info['http_code']==200 ) {
 		echo '<u>'.$site . '</u> - <strong>está funcionando</strong><br />';
